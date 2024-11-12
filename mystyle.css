@@ -1,0 +1,63 @@
+@media (prefers-color-scheme: dark) {
+    body {
+    background-color: #1c1c1e;
+    color: #fefefe;
+    }
+    a {
+    color: #5fa9ee;
+    }
+    img {
+    filter: grayscale(20%);
+    }
+    }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#scene-container {
+    width: 100%;
+    height: 400px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+canvas {
+    display: block;
+}
+
+h1 {
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.sphere-group {
+    display: grid;
+    place-items: center;
+}
+
+.control-group {
+    display: flex;
+    /* place-items: center; */
+    justify-content: space-around;
+}
+
+.mass-slider-container {
+    display: grid;
+    place-items: center;
+}
+
+.sphere-slider {
+    width: 500px;
+}
+
+.slider {
+    width: 100px;
+}

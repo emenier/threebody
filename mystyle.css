@@ -45,6 +45,7 @@ h1 {
 
 .control-group {
     display: flex;
+    flex-wrap: wrap;
     /* place-items: center; */
     justify-content: space-around;
 }
